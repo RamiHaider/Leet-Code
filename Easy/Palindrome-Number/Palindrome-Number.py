@@ -3,6 +3,8 @@ import math
 class Solution:
     def isPalindrome(self, x: int) -> bool:
 
+        if x < 0:
+            return False
         #This part converts the number x into a list
         #i.e., 512 becomes [5,1,2]
         x_list = []
